@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div id="fullForm ">
+        <div id="heder">
+           <h1>Registration Form</h1> 
+           <hr> <!--use for Horizontal Line-->
+
+           <label><b>Enter First Name: </b></label><input type="text" id="fName" placeholder="xyz" required><br><br>
+           <label><b>Enter Middel Name: </b></label><input type="text" id="mName" placeholder="xyz" required><br><br>
+           <label><b>Enter Last Name: </b></label><input type="text" id="lName" placeholder="xyz" required><br><br>
+           <label><b >Enter Mother Name: </b></label><input type="text" id="moName" placeholder="xyz" required><br><br>
+           <label><b>Enter Email ID: </b></label><input type="text" id="emailID" placeholder="xyz@gmail.com" required><br><br>
+        </div>
+        
+        <div id="user&Pass">
+           <label><b>Enter UserName: </b></label><input type="text" id="uName" placeholder="xyz" required><br><br>
+           <label><b>Enter Password: </b></label><input type="password" id="uPass" placeholder="**********" required><br><br>
+        </div>
+        
+        <div id="course">
+           <label><b>Course: </b></label>  
+            <select>
+                <option value="Course">Course</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+            </select>
+        </div><br><br>
+
+        <div id="genders">
+            <label><b>Gender: </b></label>
+                <input type="radio" value="Male" name="gender" checked>Male&nbsp;&nbsp;
+                <input type="radio" value="Female" name="gender" checked>Female&nbsp;&nbsp;
+                <input type="radio" value="Other" name="gender" checked>Other&nbsp;&nbsp;
+        </div><br><br>
+
+        <div id="phoneno">
+            <label><b>Phone Number: </b></label>
+            <input type="text" name="countryCode" placeholder="countryCode" value="+91" size="2" required>
+            <input type="text" name="phoneNo" placeholder="phoneNo" size="10" required>
+        </div><br><br>
+
+        <div id="address">
+            <label><b>Address: </b></label>
+            <textarea cols="50" rows="5" name="uAdd" placeholder="Enter Full Address" required></textarea>
+        </div><br><br>
+
+        <div id="button">
+            <button type="submit" >Register</button>&nbsp;&nbsp;
+            <button type="reset" >Re-Set</button>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
