@@ -1,0 +1,15 @@
+.fullForm{
+    border:5px black solid;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+
+h1{
+    text-align: center;
+}
+.button [type="submit"][type="reset"]{
+    border: 5px black solid;
+    text-align: center;
+    background-color: black;
+}
